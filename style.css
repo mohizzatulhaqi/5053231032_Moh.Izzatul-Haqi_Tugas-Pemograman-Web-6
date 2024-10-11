@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff; 
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #d90429; 
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #ffffff; 
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.buy-tickets-btn {
+    padding: 10px 15px;
+    background-color: #ffffff; 
+    color: #d90429; 
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px;
+    align-items: center;
+    background-color: #ffffff; 
+    background-size: cover;
+    background-position: center;
+}
+
+.match-info {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #d90429; 
+}
+
+h2 {
+    font-size: 32px;
+    color: #000; 
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #000; 
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.schedule-btn, .buy-tickets-btn {
+    padding: 10px 20px;
+    background-color: #d90429; 
+    color: #ffffff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.match-image img {
+    max-width: 2000px; 
+    border-radius: 10px;
+    border: none; 
+    margin-left: 20px; 
+}
+
